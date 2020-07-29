@@ -1,7 +1,12 @@
-Cognigy Webchat Widget
-This repo contains a Webchat that seemlessly integrates with your website and lets your users chat with your Conversational AI built with COGNIGY.AI.
+Cognigy Webchat 
+This repo created with React and used Webchat Endpoint from Cognigy.
 
-Documentation
-To get started using the Webchat on your Website, you can use the Documentation section in this repository. For Information on how to set up the Webchat on Cognigy side, please refer to the "Deploy a Webchat Endpoint" guide in our product documentation.
+Start the Webchat
+To use the webchat, you will need an installed version of Node.js. Clone this repository, then run npm i
 
-Please read the Documentation here for information about how you can integrate this Webchat on your own website. For customization of styling, please read the guide on applying custom CSS to the Webchat.
+npm start or yarn start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will automatically reload if you make changes to the code.
+You will see the build errors and lint warnings in the console.
