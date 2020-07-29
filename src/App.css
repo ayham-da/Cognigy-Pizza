@@ -1,3 +1,57 @@
-.App {
-  text-align: center;
+:root{
+  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Oswald', sans-serif !important;
+
 }
+@media screen and (min-width: 576px) {
+  body {
+      /* background:linear-gradient(to right, #347227,#aabba6, #e6dddd,#caa2a2, #ff0101); */
+      background-image: url('./images/cognigy_logo.svg');
+      
+      background-size: 100% 100%;;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      
+      max-height: 1024px;
+  }
+  }
+  [data-cognigy-webchat-root].webchat-root{
+      margin: 0rem;
+  }
+  @media screen and (max-width: 576px) {
+      body {
+          /* background:linear-gradient(to right, #347227,#aabba6, #e6dddd,#caa2a2, #ff0101); */
+          background-image: url('./images/backgraund.jpeg');
+          background-size: cover;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          
+          max-height: 1024px;
+      }
+  }
+
+.App {
+  height: 100%;
+}
+
+
+.page-link {
+  border-radius: 10px !important;
+  background-color:orange !important;
+  color: black !important;
+  font-weight: bolder;
+  
+}
+
+  .page-item.active  {
+        background-color: #d32f2f !important;
+        border-color: #616161 !important;
+      }
+      
+      .gmap-container > div {
+        flex: 1 1 auto;
+      }
+
+      .grecaptcha-badge {
+        bottom: 4% !important;
+  }

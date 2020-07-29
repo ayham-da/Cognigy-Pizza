@@ -1,7 +1,7 @@
 
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat {
-        animation: rotate 1s;
-        border-radius: 50px;
+        animation: rotate 2s;
+        border-radius: 30px;
         width: 90%;
         margin-left: 1rem
         
@@ -52,19 +52,21 @@
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-avatar.bot {
         background-image: url('./images/bot.jpeg');
-        width: 30px;
+        width: 38px;
         height: 28px;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-message-row.user{
         padding-right: 10px;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .regular-message.user {   
-        background: white;
-        color: black;
+        border: 2px solid white;
+        background: linear-gradient(to right, #807e7e, #696969, #050505);
+        color: rgb(255, 255, 255);
+        border-radius: 12px;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-avatar.user {
         background-image: url('./images/ayham.jpeg');
-        width: 30px;
+        width: 38px;
         height: 28px;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-typing-indicator {
@@ -75,7 +77,7 @@
         box-shadow: none;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-input-menu-form {
-        border-bottom-color: rgb(5, 5, 131);
+        border-bottom-color: rgb(14, 14, 180);
         
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-input-button-menu {
@@ -94,7 +96,7 @@
         margin-left: 30px;
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-input-persistent-menu {
-        color: whi
+        color: white
     }
     [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-input-persistent-menu-title {
         color: white;
@@ -106,25 +108,26 @@
     
     [data-cognigy-webchat-root] [data-cognigy-webchat-toggle].webchat-toggle-button {
         background-image: none;
-        background: linear-gradient(to right, #c7c6c6, #696969, #050505); 
+        background: linear-gradient(to right, #347227, #af9e9e, #ff0101); 
     } 
     [data-cognigy-webchat-root] .webchat-quick-reply-template-header-message { 
-        border:2px solid  #272343;
+        border:2px solid  #faf9fc;
         border-radius: 0;
         text-align: center;
-        background:linear-gradient(to right, #c7c6c6, #696969, #050505);
-        color: #272343;
-        animation: easeOutElastic 1s ;
+        background:linear-gradient(to right, #aaa8a8, #696969, #424242);
+        color: #fafafd;
+        animation: easeOut 1s ;
     }
     [data-cognigy-webchat-root]
         .webchat-quick-reply-template-replies-container
-        .webchat-quick-reply-template-reply {
-            animation: easeOutElastic 1s ;
-            border-color:#272343;
-            color: #fefeff;
-            background: linear-gradient(to right, #c7c6c6, #696969, #050505);
+        .webchat-quick-reply-template-reply
+         {
+            animation: easeOut 1s ;
+            border-color:#f1f1f3;
+            color: white;
+            background: linear-gradient(to right, #c7c6c6, #696969, #424242);
     }
-    @keyframes easeOutElastic {
+    @keyframes easeOut {
         0% {
         transform: translateX(-100%);
         }
@@ -157,7 +160,7 @@
     [data-cognigy-webchat-root] button[data-cognigy-webchat-toggle] {
         position: fixed;
         right: 32px;
-        bottom: 300px;
+        bottom: 32px;
         box-shadow: 0 5px 18px 0 rgba(151, 124, 156, 0.2), 0 5px 32px 0 rgba(203, 195, 212, 0.2), 0 8px 58px 0 rgba(216, 212, 221, 0.1);
         z-index: 1;
     }
@@ -185,10 +188,8 @@
             top: 100px;
             bottom: 104px;
             right: 100px;
-    
             width: 800px;
             height: 650px;
-    
             border-radius: 16px;
             box-shadow: 0 5px 18px 0 rgba(151, 124, 156, 0.2), 0 5px 32px 0 rgba(203, 195, 212, 0.2), 0 8px 58px 0 rgba(216, 212, 221, 0.1);
         }
