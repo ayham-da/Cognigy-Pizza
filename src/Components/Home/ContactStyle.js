@@ -53,17 +53,26 @@ const useStyles = makeStyles((theme) => ({
     padding:"0",
     margin: theme.spacing(1,1,0),
     borderRadius:"10px",
-    backgroundColor:"orange",
+    background: "linear-gradient(to right, #347227, #ffffff, #ff0101)",
     color:"black",
     fontFamily: '"Titillium Web", sans-serif !important',
+    "&:hover": {
+      background: "linear-gradient(to left, #347227, #ffffff, #ff0101)",
+      textDecoration:"none",
+      
+    }
   },
   email: {
-    color: "orange",
+    color: "black",
     fontWeight: "bolder",
+    background: "linear-gradient(to right, #347227, #ffffff, #ff0101)",
+    textDecoration:"none",
+    borderRadius:"10px",
     "&:hover": {
-      color: "black",
-      backgroundColor: "orange",
-      textDecoration:"none"
+      
+      background: "linear-gradient(to left, #347227, #ffffff, #ff0101)",
+      
+      textDecoration:"none",
     }
   },
   googleMaps:{

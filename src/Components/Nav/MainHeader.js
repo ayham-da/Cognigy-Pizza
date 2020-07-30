@@ -36,7 +36,7 @@ const MainHeader = props => {
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" className=" text-light">Search</Button>
           </Form>
           <NavDropdown className="text-light" title="More" id="basic-nav-dropdown" >
             <NavDropdown.Item style={{display:"flex", justifyContent:"center"}} onClick={closeNav}  className="bg-dark text-light" activeClassName="active" as={NavLink} to="#Login"> Login </NavDropdown.Item> 

@@ -38,7 +38,7 @@ const Contact = () => {
                                     &nbsp; Hier finden Sie uns!
                             </Typography>
                             <Card.Body className="text-center gmap-container d-flex flex-column align-items-stretch align-content-stretch">
-                                <Map center={{lat:51.2121149,lng:6.7502104}} zoom={16}/>
+                                <Map center={{lat:51.2140466,lng:6.7493067}} zoom={17}/>
                             </Card.Body>
                             <CardActionArea>
                                 <Typography color="dark"className={classes.typo}>
@@ -51,9 +51,10 @@ const Contact = () => {
                                         <FaCity /> &nbsp;  40221 Düsseldorf ,Germany
                                 </Typography>
                                 <Typography color="dark" className={classes.typo}>
-                                        <MailTwoToneIcon /> &nbsp;
+                                        
                                        <a href="mailto:ayham.alaaeddin@gmail.com"
                                         className={classes.email}>
+                                            <MailTwoToneIcon /> &nbsp;
                                         Haben Sie noch Fragen? Schreiben Sie Uns!
                                       </a>
                                 </Typography>
