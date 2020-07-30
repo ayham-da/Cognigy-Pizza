@@ -68,10 +68,8 @@ const useStyles = makeStyles((theme) => ({
     background: "linear-gradient(to right, #347227, #ffffff, #ff0101)",
     textDecoration:"none",
     borderRadius:"10px",
-    "&:hover": {
-      
-      background: "linear-gradient(to left, #347227, #ffffff, #ff0101)",
-      
+    "&:hover": {    
+      background: "linear-gradient(to left, #347227, #ffffff, #ff0101)", 
       textDecoration:"none",
     }
   },

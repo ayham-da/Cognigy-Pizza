@@ -17,7 +17,7 @@ import Map                           from '../../Mab/Map';
 
 const Contact = () => {
     const classes = ContactStyles();
-    const contactPageTitle = "Mars Tischtennis 2020 e.V./Kontakt";
+    const contactPageTitle = "cognigy Pizza";
     return (
           <Page loader={"bar"} color={"white"} size={9} duration={1}>
                 <Helmet>
